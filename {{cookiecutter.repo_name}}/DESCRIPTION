@@ -1,9 +1,9 @@
-Package: {{cookiecutter.project_name}}
+Package: {{cookiecutter.repo_name}}
 Title: {{cookiecutter.short_description}}
 Version: 0.0.0.9000
-Authors@R: person("{{cookiecutter.author_name}}", "Developer", email = "{{cookiecutter.email}}", role = c("aut", "cre"))
 Description: {{cookiecutter.description}}
 Depends: R (>= 3.4.0), {{cookiecutter.depends}}
 License: {{cookiecutter.open_source_license}}
+Maintainer: {{cookiecutter.author_name}} <{{cookiecutter.email}}>
 Encoding: UTF-8
 LazyData: true
